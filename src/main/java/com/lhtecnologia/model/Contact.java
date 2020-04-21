@@ -43,4 +43,26 @@ public class Contact {
     public void setPhone(String phone) {
         this.phone = phone;
     }
+
+    public Contact withId(final Long id) {
+        this.id = id;
+        return this;
+    }
+
+    public Contact withName(final String name) {
+        this.name = name;
+        return this;
+    }
+
+    public Contact withPhone(final String phone) {
+        this.phone = phone;
+        return this;
+    }
+
+    public static Contact copyValues(Contact contact) {
+        return new Contact()
+                .withId(contact.getId())
+                .withName(contact.getName())
+                .withPhone(contact.getPhone());
+    }
 }
