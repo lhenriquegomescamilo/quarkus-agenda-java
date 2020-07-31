@@ -1,3 +1,14 @@
+# Requirediments
+* Docker installed
+* JDK 8+
+
+
+#  Another configuration
+* Just run the command to up the database
+```
+docker-compose up -d postgres
+```
+
 # quarkus-agenda project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
