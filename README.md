@@ -1,5 +1,5 @@
 # Requirediments
-* Docker installed
+* Docker and docker-compose installed
 * JDK 8+
 
 
