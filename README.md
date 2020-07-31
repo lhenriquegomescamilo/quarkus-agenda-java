@@ -1,9 +1,9 @@
-# Requirediments
+#  Requirements
 * Docker and docker-compose installed
 * JDK 8+
 
 
-#  Another configuration
+#  Anothers configurations
 * Just run the command to up the database
 ```
 docker-compose up -d postgres
